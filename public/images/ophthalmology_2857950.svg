@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="34.767" viewBox="0 0 35 34.767">
+  <g id="ophthalmology_2857950" transform="translate(0 -0.402)">
+    <g id="Group_48001" data-name="Group 48001" transform="translate(0 0.402)">
+      <g id="Group_48000" data-name="Group 48000">
+        <g id="Group_47999" data-name="Group 47999">
+          <g id="Group_47998" data-name="Group 47998">
+            <g id="Group_47997" data-name="Group 47997">
+              <g id="Group_47996" data-name="Group 47996">
+                <g id="Group_47995" data-name="Group 47995">
+                  <circle id="Ellipse_529" data-name="Ellipse 529" cx="17.383" cy="17.383" r="17.383" fill="#e0e296"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Path_47053" data-name="Path 47053" d="M88.137,145.184l13.149,13.1a17.517,17.517,0,0,0,15.63-20.044l-5.825-5.825Z" transform="translate(-82.112 -123.197)" fill="#e5e885"/>
+    <g id="Group_48002" data-name="Group 48002" transform="translate(3.509 10.62)">
+      <path id="Path_47054" data-name="Path 47054" d="M65.32,169.033a16.145,16.145,0,0,1-13.991-8.076,16.155,16.155,0,0,1,27.982,0,16.145,16.145,0,0,1-13.991,8.076Z" transform="translate(-51.329 -152.881)" fill="#fff"/>
+    </g>
+    <g id="Group_48003" data-name="Group 48003" transform="translate(17.508 10.62)">
+      <path id="Path_47055" data-name="Path 47055" d="M270.1,160.958a16.146,16.146,0,0,0-13.983-8.076v16.152A16.145,16.145,0,0,0,270.1,160.958Z" transform="translate(-256.12 -152.882)" fill="#e9edf5"/>
+    </g>
+    <g id="Group_48004" data-name="Group 48004" transform="translate(10.176 11.373)">
+      <circle id="Ellipse_530" data-name="Ellipse 530" cx="7.324" cy="7.324" r="7.324" fill="#64e1dc"/>
+    </g>
+    <g id="Group_48005" data-name="Group 48005" transform="translate(17.508 11.373)">
+      <path id="Path_47056" data-name="Path 47056" d="M263.435,171.213a7.324,7.324,0,0,0-7.315-7.324v14.647A7.323,7.323,0,0,0,263.435,171.213Z" transform="translate(-256.12 -163.89)" fill="#1cadb5"/>
+    </g>
+    <g id="Group_48006" data-name="Group 48006" transform="translate(13.903 15.1)">
+      <circle id="Ellipse_531" data-name="Ellipse 531" cx="3.597" cy="3.597" r="3.597" fill="#707789"/>
+    </g>
+    <g id="Group_48007" data-name="Group 48007" transform="translate(17.508 15.1)">
+      <path id="Path_47057" data-name="Path 47057" d="M259.708,222.009a3.6,3.6,0,0,0-3.588-3.6v7.193A3.6,3.6,0,0,0,259.708,222.009Z" transform="translate(-256.12 -218.413)" fill="#555a66"/>
+    </g>
+    <g id="Group_48008" data-name="Group 48008" transform="translate(20.173 7.746)">
+      <circle id="Ellipse_532" data-name="Ellipse 532" cx="5.185" cy="5.185" r="5.185" fill="#ff7045"/>
+    </g>
+    <g id="Group_48009" data-name="Group 48009" transform="translate(25.374 7.746)">
+      <path id="Path_47058" data-name="Path 47058" d="M376.351,116.027a5.185,5.185,0,0,0-5.17-5.185v10.37A5.185,5.185,0,0,0,376.351,116.027Z" transform="translate(-371.181 -110.842)" fill="#de4726"/>
+    </g>
+    <g id="Group_48010" data-name="Group 48010" transform="translate(22.042 9.615)">
+      <path id="Path_47059" data-name="Path 47059" d="M329.076,140.232h-2.048v-2.048h-2.536v2.048h-2.048v2.536h2.048v2.048h2.536v-2.048h2.048Z" transform="translate(-322.444 -138.184)" fill="#fff"/>
+    </g>
+    <g id="Group_48011" data-name="Group 48011" transform="translate(25.374 9.615)">
+      <path id="Path_47060" data-name="Path 47060" d="M372.433,140.232v-2.048h-1.252v6.632h1.252v-2.048h2.048v-2.536Z" transform="translate(-371.181 -138.184)" fill="#e9edf5"/>
+    </g>
+  </g>
+</svg>

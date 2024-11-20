@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.317" height="15.947" viewBox="0 0 16.317 15.947">
+  <g id="calendar-svgrepo-com" transform="translate(0.75 0.75)">
+    <path id="Path_22451" data-name="Path 22451" d="M2,9.927c0-2.794,0-4.191.868-5.059S5.133,4,7.927,4H10.89c2.794,0,4.191,0,5.059.868s.868,2.265.868,5.059v1.482c0,2.794,0,4.191-.868,5.059s-2.265.868-5.059.868H7.927c-2.794,0-4.191,0-5.059-.868S2,14.2,2,11.409Z" transform="translate(-2 -2.889)" fill="none" stroke="#4c728f" stroke-width="1.5"/>
+    <path id="Path_22452" data-name="Path 22452" d="M7,3.611V2.5" transform="translate(-3.296 -2.5)" fill="none" stroke="#1c274c" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+    <path id="Path_22453" data-name="Path 22453" d="M17,3.611V2.5" transform="translate(-5.887 -2.5)" fill="none" stroke="#1c274c" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+    <path id="Path_22454" data-name="Path 22454" d="M2.5,9H16.576" transform="translate(-2.13 -4.184)" fill="none" stroke="#1c274c" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+    <path id="Path_22455" data-name="Path 22455" d="M17.482,16.741A.741.741,0,1,1,16.741,16,.741.741,0,0,1,17.482,16.741Z" transform="translate(-5.628 -5.998)" fill="#1c274c"/>
+    <path id="Path_22456" data-name="Path 22456" d="M17.482,12.741A.741.741,0,1,1,16.741,12,.741.741,0,0,1,17.482,12.741Z" transform="translate(-5.628 -4.962)" fill="#1c274c"/>
+    <path id="Path_22457" data-name="Path 22457" d="M12.482,16.741A.741.741,0,1,1,11.741,16,.741.741,0,0,1,12.482,16.741Z" transform="translate(-4.332 -5.998)" fill="#1c274c"/>
+    <path id="Path_22458" data-name="Path 22458" d="M12.482,12.741A.741.741,0,1,1,11.741,12,.741.741,0,0,1,12.482,12.741Z" transform="translate(-4.332 -4.962)" fill="#1c274c"/>
+    <path id="Path_22459" data-name="Path 22459" d="M7.482,16.741A.741.741,0,1,1,6.741,16,.741.741,0,0,1,7.482,16.741Z" transform="translate(-3.037 -5.998)" fill="#1c274c"/>
+    <path id="Path_22460" data-name="Path 22460" d="M7.482,12.741A.741.741,0,1,1,6.741,12,.741.741,0,0,1,7.482,12.741Z" transform="translate(-3.037 -4.962)" fill="#1c274c"/>
+  </g>
+</svg>

@@ -1,0 +1,590 @@
+<head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+  />
+
+  <style>
+    .custom-text-primary {
+      color: #2b6050;
+    }
+
+    .custom-bg-primary {
+      background-color: #f5f8ff;
+    }
+
+    .custom-bg-primary {
+      background-color: #f5f8ff;
+    }
+
+    .custom-bg-secondary {
+      background-color: #e1eff0;
+    }
+
+    .custom-text-primary {
+      color: #148a96;
+    }
+
+    .custom-text-success {
+      color: #2b6050;
+    }
+
+    .custom-text-accent {
+      color: #f98d5a;
+    }
+
+    .custom-gap {
+      gap: 1.25rem;
+    }
+
+    .ps-72 {
+      padding-left: 18rem;
+      background-color: #f5f8ff;
+    }
+
+    .position-relative {
+      position: relative;
+    }
+
+    .flex-grow-1 {
+      flex: 1 1 auto;
+    }
+
+    .h-100 {
+      height: 100%;
+    }
+
+    .w-100 {
+      width: 100%;
+    }
+
+    .main-padding {
+      padding-right: 2rem;
+    }
+
+    .d-flex-between {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .bg-white-custom {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-primary-custom {
+      color: #204f74;
+    }
+
+    .text-secondary-custom {
+      color: #2b6050;
+    }
+
+    .border-custom {
+      border-color: #91ada6;
+    }
+
+    .rounded-md {
+      border-radius: 0.5rem;
+    }
+
+    .btn-custom {
+      background-color: #b0d8ff;
+      border-color: #2b6050;
+      color: #2b6050;
+    }
+
+    .btn-save-custom {
+      background-color: #2b6050;
+      color: white;
+    }
+
+    .checkbox-label {
+      margin-left: 0.5rem;
+      color: #2b6050;
+    }
+
+    .input-custom {
+      border-color: #91ada6;
+      border-radius: 0.375rem;
+      color: #2b6050;
+    }
+
+    .item-card {
+      border: 1px solid #e5e5e5;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .item-card img {
+      width: auto; 
+      height: 100%; 
+      border-radius: 0.5rem;
+      margin-right: 1rem;
+    }
+
+    .btn-circle {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 22px;
+      font-size: 14px;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="custom-bg-primary">
+  <div>
+    <div
+      class="d-none d-lg-flex position-fixed top-0 bottom-0 z-50 w-72 flex-column"
+    >
+      <div
+        class="flex-grow-1 d-flex flex-column custom-gap overflow-auto custom-bg-primary px-4 pb-3 border"
+      >
+        <div class="d-flex justify-content-center mt-2">
+          <img
+            alt="Your Company"
+            src="../../images/Logo.svg"
+            class="img-fluid w-75"
+          />
+        </div>
+
+        <div
+          class="d-flex flex-column align-items-center justify-content-center custom-bg-secondary py-2 mt-3 rounded shadow cursor-pointer"
+        >
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src="../../images/profile.jpeg"
+              alt="Profile Picture"
+              width="40"
+              height="40"
+              class="rounded-circle"
+            />
+            <div class="d-flex flex-column">
+              <div class="d-flex align-items-center">
+                <span class="text-sm fw-semibold custom-text-primary">
+                  Brookleyn Alice
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ms-1"
+                  style="color: #2b6050"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 15l7-7 7 7"
+                  />
+                </svg>
+              </div>
+              <span class="small">Admin</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center jus gap-2">
+            <img
+              src="../../images/logout-svgrepo-com.svg"
+              alt="Logout"
+              width="15"
+              height="15"
+            />
+            <a href="/" class="text-sm custom-text-success cursor-pointer">
+              Logout
+            </a>
+          </div>
+        </div>
+        <nav class="flex-grow-1 d-flex flex-column">
+          <ul class="list-unstyled">
+            <li>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="/home"
+                    class="custom-bg-light custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/Group 11285.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/appointment"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/calendar-mark-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Appointments
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/reservation"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/referral-2-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Reservations
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/chat"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/chat-round-line-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Inbox
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/document"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/documents-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Documents
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/health"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/health-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    My Health
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/notification"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/notification-bell-new.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Notifications
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/settings"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/Group 49182.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Settings
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="ps-72">
+      <div
+        class="position top-0 z-40 d-flex align-items-center custom-bg-primary gap-3 px-3"
+      >
+        <div
+          aria-hidden="true"
+          class="d-lg-none h-6 custom-bg-primary w-px"
+        ></div>
+        <div class="d-flex-between">
+          <div>
+            <div class="col mb-2">
+              <div>
+                <span class="custom-text-primary fw-bold fs-4"
+                  >Health Summary</span
+                >
+              </div>
+              <div>
+                <span class="custom-text-primary text-xs"
+                  >Health Summary * Diet</span
+                >
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <a
+                href="/health"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Health Summary</a
+              >
+              <a
+                href="/care"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Care Summary</a
+              >
+              <a
+                href="/vitals"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Vitals</a
+              >
+              <a
+                href="/medication"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Medications</a
+              >
+              <a
+                href="/diet"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Diet</a
+              >
+              <a
+                href="/pastRecords"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Past Record</a
+              >
+              <a
+                href="/dailyActivityGraph"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Daily Activity Graph</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="h-100 custom-bg-primary main-padding">
+        <div class="d-flex bg-white-custom rounded-md p-4 gap-4">
+          <!-- Left Section -->
+          <section class="flex-grow-1">
+            <div class="d-grid gap-2">
+              <!-- Title -->
+              <span class="fs-5 text-primary-custom fw-bold"
+                >&larr; Add Meal</span
+              >
+
+              <!-- Select Meal -->
+              <select name="meal" class="form-select input-custom">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+              </select>
+
+              <!-- Input for Age -->
+              <input
+                type="text"
+                placeholder="Apple"
+                class="form-control input-custom"
+              />
+
+              <!-- Checkbox List -->
+              <div class="form-check d-flex align-items-center">
+                <input type="checkbox" class="form-check-input input-custom" />
+                <label class="checkbox-label">Apple</label>
+              </div>
+
+              <div class="form-check d-flex align-items-start">
+                <input type="checkbox" class="form-check-input input-custom" />
+                <div class="d-flex flex-column">
+                  <label class="checkbox-label">HoneyCrisp Apple</label>
+                  <span class="small">80 Cal medium sized (182 grams)</span>
+                </div>
+              </div>
+
+              <div class="form-check d-flex align-items-center">
+                <input type="checkbox" class="form-check-input input-custom" />
+                <label class="checkbox-label">Gala Apple</label>
+              </div>
+
+              <div class="form-check d-flex align-items-center">
+                <input type="checkbox" class="form-check-input input-custom" />
+                <label class="checkbox-label">Fauji Apple</label>
+              </div>
+
+              <div class="form-check d-flex align-items-center">
+                <input type="checkbox" class="form-check-input input-custom" />
+                <label class="checkbox-label"
+                  >Apple Slices Cup (Fresh & Easy)</label
+                >
+              </div>
+
+              <div class="form-check d-flex align-items-center">
+                <input type="checkbox" class="form-check-input input-custom" />
+                <label class="checkbox-label">Red Delicious Apple</label>
+              </div>
+
+              <div class="form-check d-flex align-items-center">
+                <input type="checkbox" class="form-check-input input-custom" />
+                <label class="checkbox-label"
+                  >Quick Dried Apple with Sugar</label
+                >
+              </div>
+            </div>
+
+            <!-- Summary Section -->
+            <div class="mt-3">
+              <span class="text-primary-custom fw-bold">Summary Section</span>
+              <div class="d-flex flex-column mt-2 gap-2">
+                <span class="text-secondary-custom fw-semibold"
+                  >Break Fast</span
+                >
+                <span class="text-secondary-custom">Current Time: 3:21PM</span>
+
+                <div class="item-card d-flex">
+                  <img src="../../images/Rectangle 21332-2.png" alt="Meal 1" />
+                  <div class="d-flex flex-column w-100">
+                    <div class="d-flex justify-content-between" style=" padding: 0.5rem;">
+                      <div class="text-secondary-custom">
+                        <h3 class="fw-bold text-primary-custom">Meal 1</h3>
+                        <p class="small">
+                          Carbs 23 g, Protein 0.3 g, Fat 0.2 g
+                        </p>
+                      </div>
+                      <div class="d-flex flex-column align-items-end">
+                        <p class="small">09/07/2024 - 09:30 am</p>
+                        <p class="fw-bold text-primary-custom mt-4">
+                          220 Calories
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Items Added Section -->
+              <div class="mt-3">
+                <span class="text-secondary-custom fw-bold">Items Added</span>    
+                <div class="item-card d-flex">
+                  <img src="../../images/Rectangle 21332-1.png" alt="honey" />
+                  <div class="d-flex flex-column w-100">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="fw-bold"> HoneyCrisp Apple</h3>
+                        <p class="small">1 medium sized, 180 grams</p>
+                      </div>
+                      <div class="d-flex gap-2 justify-content-center" style=" padding: 0.5rem;">
+                        <button
+                          class="btn btn-outline-secondary btn-circle d-flex align-items-center justify-content-center"
+                        >
+                          +
+                        </button>
+                        <button
+                          class="btn btn-outline-secondary btn-circle d-flex align-items-center justify-content-center"
+                        >
+                          -
+                        </button>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end" style="padding-right: 1%;">
+                      <p class="text-secondary-custom fw-bold">80 Calories</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item-card d-flex">
+                  <img src="../../images/Rectangle 21332-3.png" alt="Omlette" />
+                  <div class="d-flex flex-column w-100">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="fw-bold">Omlette</h3>
+                        <p class="small">2 eggs, 100 grams</p>
+                      </div>
+                      <div class="d-flex gap-2 justify-content-center" style=" padding: 0.5rem;">
+                        <button
+                          class="btn btn-outline-secondary btn-circle d-flex align-items-center justify-content-center"
+                        >
+                          +
+                        </button>
+                        <button
+                          class="btn btn-outline-secondary btn-circle d-flex align-items-center justify-content-center"
+                        >
+                          -
+                        </button>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end" style="padding-right: 1%;">
+                      <p class="text-secondary-custom fw-bold">180 Calories</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- Right Section -->
+          <section class="w-25 d-flex flex-column gap-2">
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-custom px-4 py-2">12345</button>
+            </div>
+            <img
+             src="../../images/Group 48351.svg"
+              alt="Meal Image"
+              class="w-auto h-auto mt-4"
+            />
+            <div class="d-flex justify-content-center mt-4">
+              <button class="btn btn-save-custom px-4 py-2">Save Meal</button>
+            </div>
+          </section>
+        </div>
+        <br />
+      </main>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,514 @@
+<head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+  />
+  <style>
+    .custom-text-primary {
+      color: #2b6050;
+    }
+
+    .custom-bg-primary {
+      background-color: #f5f8ff;
+    }
+
+    .custom-bg-primary {
+      background-color: #f5f8ff;
+    }
+
+    .custom-bg-secondary {
+      background-color: #e1eff0;
+    }
+
+    .custom-text-primary {
+      color: #148a96;
+    }
+
+    .custom-text-success {
+      color: #2b6050;
+    }
+
+    .custom-text-accent {
+      color: #f98d5a;
+    }
+
+    .custom-gap {
+      gap: 1.25rem;
+    }
+
+    .ps-72 {
+      padding-left: 18rem;
+      background-color: #f5f8ff;
+    }
+
+    .position-relative {
+      position: relative;
+    }
+
+    .flex-grow-1 {
+      flex: 1 1 auto;
+    }
+
+    .h-100 {
+      height: 100%;
+    }
+
+    .w-100 {
+      width: 100%;
+    }
+
+    .main-padding {
+      padding-right: 2rem;
+    }
+
+    .d-flex-between {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .custom-main-container {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+    }
+
+    .card {
+      border-radius: 12px;
+      border: none;
+      background-color: #eef7f9;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: #2b6050;
+    }
+
+    .card-img-top {
+      display: block;
+    }
+
+    .stretched-link {
+      color: #438d76;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .stretched-link:hover {
+      text-decoration: underline;
+    }
+
+    .shadow-lg {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    img.img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="custom-bg-primary">
+  <div>
+    <div
+      class="d-none d-lg-flex position-fixed top-0 bottom-0 z-50 w-72 flex-column"
+    >
+      <div
+        class="flex-grow-1 d-flex flex-column custom-gap overflow-auto custom-bg-primary px-4 pb-3 border"
+      >
+        <div class="d-flex justify-content-center mt-2">
+          <img
+            alt="Your Company"
+            src="../../images/Logo.svg"
+            class="img-fluid w-75"
+          />
+        </div>
+
+        <div
+          class="d-flex flex-column align-items-center justify-content-center custom-bg-secondary py-2 mt-3 rounded shadow cursor-pointer"
+        >
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src="../../images/profile.jpeg"
+              alt="Profile Picture"
+              width="40"
+              height="40"
+              class="rounded-circle"
+            />
+            <div class="d-flex flex-column">
+              <div class="d-flex align-items-center">
+                <span class="text-sm fw-semibold custom-text-primary">
+                  Brookleyn Alice
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ms-1"
+                  style="color: #2b6050"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 15l7-7 7 7"
+                  />
+                </svg>
+              </div>
+              <span class="  small">Admin</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center jus gap-2">
+            <img
+              src="../../images/logout-svgrepo-com.svg"
+              alt="Logout"
+              width="15"
+              height="15"
+            />
+            <a href="/" class="text-sm custom-text-success cursor-pointer">
+              Logout
+            </a>
+          </div>
+        </div>
+        <nav class="flex-grow-1 d-flex flex-column">
+          <ul class="list-unstyled">
+            <li>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="/home"
+                    class="custom-bg-light custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/Group 11285.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/appointment"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/calendar-mark-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Appointments
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/reservation"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/referral-2-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Reservations
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/chat"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/chat-round-line-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Inbox
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/document"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/documents-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Documents
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/health"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/health-svgrepo-com.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    My Health
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/notification"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/notification-bell-new.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Notifications
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/settings"
+                    class="custom-text-success d-flex align-items-center gap-3 rounded p-2 text-sm fw-semibold"
+                  >
+                    <img
+                      src="../../images/Group 49182.svg"
+                      aria-hidden="true"
+                      alt="icon"
+                      class="h-6 w-6"
+                    />
+                    Settings
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="ps-72">
+      <div
+        class="position top-0 z-40 d-flex align-items-center custom-bg-primary gap-3 px-3"
+      >
+        <div
+          aria-hidden="true"
+          class="d-lg-none h-6 custom-bg-primary w-px"
+        ></div>
+        <div class="d-flex-between">
+          <div>
+            <span class="custom-text-primary fw-bold fs-4">Health Summary</span>
+            <div class="d-flex align-items-center mb-4">
+              <a
+                href="/health"
+                class="me-3"
+                style="color: #204f74; font-weight: bold"
+                >Health Summary</a
+              >
+              <a
+                href="/care"
+                class="me-3  "
+                style="color: #204f74; font-weight: bold"
+                >Care Summary</a
+              >
+              <a
+                href="/vitals"
+                class="me-3  "
+                style="color: #204f74; font-weight: bold"
+                >Vitals</a
+              >
+              <a
+                href="/medication"
+                class="me-3  "
+                style="color: #204f74; font-weight: bold"
+                >Medications</a
+              >
+              <a
+                href="/diet"
+                class="me-3  "
+                style="color: #204f74; font-weight: bold"
+                >Diet</a
+              >
+              <a
+                href="/pastRecords"
+                class="me-3  "
+                style="color: #204f74; font-weight: bold"
+                >Past Record</a
+              >
+              <a
+                href="/dailyActivityGraph"
+                class="me-3  "
+                style="color: #204f74; font-weight: bold"
+                >Daily Activity Graph</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="h-100 custom-bg-primary main-padding">
+        <div class="p-4 rounded shadow-lg custom-main-container">
+          <div class="row">
+            <!-- Left section with cards -->
+            <div class="col-md-8">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div class="card p-3 h-100 shadow-sm">
+                    <div class="card-body text-start">
+                      <h6 class="card-title">Care Summary</h6>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <i class="bi bi-arrow-right"></i>
+                      <img
+                        src="../../images/medical-report_3630016.svg"
+                        alt="Care Summary"
+                        class="card-img-top"
+                        style="width: 80px"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card p-3 h-100 shadow-sm">
+                    <div class="card-body text-start">
+                      <h6 class="card-title">Vitals</h6>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <i class="bi bi-arrow-right"></i>
+                      <img
+                        src="../../images/heartbeat_3980388.svg"
+                        alt="Care Summary"
+                        class="card-img-top"
+                        style="width: 80px"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card p-3 h-100 shadow-sm">
+                    <div class="card-body text-start">
+                      <h6 class="card-title">Medications</h6>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <i class="bi bi-arrow-right"></i>
+                      <img
+                        src="../../images/l.svg"
+                        alt="Care Summary"
+                        class="card-img-top"
+                        style="width: 80px"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card p-3 h-100 shadow-sm">
+                    <div class="card-body text-start">
+                      <h6 class="card-title">Diet</h6>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <i class="bi bi-arrow-right"></i>
+                      <img
+                        src="../../images/diet_17194692.svg"
+                        alt="Care Summary"
+                        class="card-img-top"
+                        style="width: 80px"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card p-3 h-100 shadow-sm">
+                    <div class="card-body text-start">
+                      <h6 class="card-title">Past Records</h6>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <i class="bi bi-arrow-right"></i>
+                      <img
+                        src="../../images/copy_832121.svg"
+                        alt="Care Summary"
+                        class="card-img-top"
+                        style="width: 80px"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card p-3 h-100 shadow-sm">
+                    <div class="card-body text-start">
+                      <h6 class="card-title">Daily Activity Graph</h6>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <i class="bi bi-arrow-right"></i>
+                      <img
+                        src="../../images/trading_12304587.svg"
+                        alt="Care Summary"
+                        class="card-img-top"
+                        style="width: 80px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right section with image -->
+            <div class="col-md-4 text-center">
+              <img
+                src="../../images/Group 48351.svg"
+                alt="Health Overview Illustration"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <br />
+      </main>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,62 @@
+{
+  "rewrites": [
+    { "source": "/login", "destination": "/login.html" },
+    { "source": "/signup", "destination": "/signup.html" },
+    { "source": "/signup2", "destination": "/signup2.html" },
+    { "source": "/signup3", "destination": "/signup3.html" },
+    { "source": "/verifyContact", "destination": "/verifyContact.html"},
+    { "source": "/verifyContact2", "destination": "/verifyContact2.html"},
+    { "source": "/verifyContact3", "destination": "/verifyContact3.html"},
+    { "source": "/forgetPassword", "destination": "/forgotPassword.html"},
+    { "source": "/reset", "destination": "/passwordReset.html"},
+    { "source": "/setPassword", "destination": "/setNewPassword.html"},
+     
+
+    { "source": "/home", "destination": "pages/home/home.html"},
+    { "source": "/appointment", "destination": "pages/appointment/appointments.html"},
+    { "source": "/new_appointment", "destination": "pages/appointment/newAppointment.html"},
+    { "source": "/view_appointment", "destination": "pages/appointment/viewAppointement.html"},
+  
+    { "source": "/msgs", "destination": "pages/inbox/chat.html"},
+    { "source": "/chat", "destination": "pages/inbox/msgs.html"},
+    { "source": "/document", "destination": "pages/document/documents.html"},
+    
+    { "source": "/health", "destination": "pages/myHealth/health.html"},
+    { "source": "/addDiet", "destination": "pages/myHealth/addDiet.html" },
+    { "source": "/care", "destination": "pages/myHealth/care.html" },
+    { "source": "/careDetail", "destination": "pages/myHealth/careDetail.html" },
+    { "source": "/dailyActivityGraph", "destination": "pages/myHealth/dailyActivityGraph.html" },
+    { "source": "/diet", "destination": "pages/myHealth/diet.html" },
+    { "source": "/editVital", "destination": "pages/myHealth/editVital.html" },
+    { "source": "/medication", "destination": "pages/myHealth/medication.html" },
+    { "source": "/pastRecords", "destination": "pages/myHealth/pastRecords.html" },
+    { "source": "/vitals", "destination": "pages/myHealth/vitals.html" },
+    
+    
+
+    { "source": "/notification", "destination": "pages/notification/notification.html"}, 
+
+    { "source": "/reservation", "destination": "pages/reservation/reservations.html"}, 
+    { "source": "/admision", "destination": "pages/reservation/addmisionReason.html"}, 
+    { "source": "/ai", "destination": "pages/reservation/ai_generated_summary.html"}, 
+    { "source": "/confirm", "destination": "pages/reservation/bookingConformation.html"}, 
+    { "source": "/refral", "destination": "pages/reservation/bookReferral.html"}, 
+    { "source": "/book_reservation", "destination": "pages/reservation/bookReservation.html"}, 
+    { "source": "/find", "destination": "pages/reservation/findMatch.html"}, 
+    { "source": "/find_detail", "destination": "pages/reservation/findMatchDeatil.html"}, 
+    { "source": "/domain", "destination": "pages/reservation/selectDomain.html"}, 
+    { "source": "/service", "destination": "pages/reservation/selectService.html"}, 
+    { "source": "/social", "destination": "pages/reservation/selectSocailService.html"}, 
+    
+
+
+    { "source": "/settings", "destination": "pages/settings/familyMember.html"},
+    { "source": "/addFamilyMember", "destination": "pages/settings/addFamilyMember.html" },
+    { "source": "/editPersonalInfo", "destination": "pages/settings/editPersonalInfo.html" },
+    { "source": "/personalInformation", "destination": "pages/settings/personalInformation.html" },
+    { "source": "/updatePassword", "destination": "pages/settings/updatePassword.html" },
+    
+    { "source": "/", "destination": "/Home.html" },
+    { "source": "/guide", "destination": "/GuideManual.html" }
+  ]
+}

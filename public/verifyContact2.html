@@ -1,0 +1,97 @@
+<head>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Bootstrap Icons for the form icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+  />
+</head>
+
+<body>
+  <div class="d-flex vh-100 bg-light">
+    <section class="position-fixed top-0 m-4 w-100" style="height: 20%">
+      <img src="images/Logo.svg" alt="logo_title"  />
+    </section>
+    
+    <section
+  class="d-flex w-100 justify-content-center align-items-center"
+  style="height: 80%; margin-top: 2rem">
+  <div
+    class="position-relative d-flex flex-column bg-white rounded-lg p-4 "
+    style="max-width: 400px; margin-top: 5rem"
+  >
+    <!-- Image at the top -->
+    <div
+      class="position-absolute"
+      style="top: -3rem; left: 50%; transform: translateX(-50%)"
+    >
+    <img
+    src="images/Group 11319.png"
+    alt="logo_title"
+    class="img-fluid"
+    style="height: 6rem; width: 6rem"
+  />
+    </div>
+
+    <!-- Heading -->
+    <div class="pt-4 mb-4 text-center">
+      <h2 class="fw-bold text-center fs-4" style="color: #204F74;">erify your contact number</h2>
+      <p class="text-center "
+            style="color:#212B36; font-size: 0.875rem; white-space: nowrap">
+        Enter your OTP code here.
+      </p>
+
+      <!-- OTP Input Boxes -->
+      <div class="d-flex justify-content-center mb-4">
+        <input
+          type="text"
+          class="form-control text-center mx-1"
+          maxlength="1"
+          style="width: 3rem; font-size: 1.5rem;"
+        />
+        <input
+          type="text"
+          class="form-control text-center mx-1"
+          maxlength="1"
+          style="width: 3rem; font-size: 1.5rem;"
+        />
+        <input
+          type="text"
+          class="form-control text-center mx-1"
+          maxlength="1"
+          style="width: 3rem; font-size: 1.5rem;"
+        />
+        <input
+          type="text"
+          class="form-control text-center mx-1"
+          maxlength="1"
+          style="width: 3rem; font-size: 1.5rem;"
+        />
+      </div>
+
+      <!-- Verify Button -->
+      <div class="d-grid gap-2 mb-3">
+        <a href='/verifyContact3' class="btn btn-success" style="background-color: #2B6050;">
+          Verify
+        </a>
+      </div>
+
+      <!-- Resend Code and Back Links -->
+      <p class="text-center text-muted mb-1 fw-semibold" style="color: #000000;">
+        Don't have a code? 
+        <a href="#" class="fw-semibold" style="color: #004AAD;">Resend code</a>
+      </p>
+      <div class="text-center">
+        <a href="#" class="text-dark fw-semibold">&lt; Back</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </div>
+</body>
